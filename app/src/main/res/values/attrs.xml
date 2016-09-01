@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomRatingbar">
+        <attr name="cr_src" format="reference"></attr>//空心图片资源
+        <attr name="cr_like_src" format="reference"></attr>//实心图片资源
+        <attr name="cr_total_count" format="integer"></attr>//总数量
+        <attr name="cr_like_count" format="integer"></attr>//推荐的数量
+        <attr name="cr_size" format="reference"></attr>//大小
+    </declare-styleable>
+</resources>
