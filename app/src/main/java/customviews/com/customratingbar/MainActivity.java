@@ -3,6 +3,8 @@ package customviews.com.customratingbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.zq.customratingbarmoudle.CustonRatingbar;
+
 public class MainActivity extends AppCompatActivity {
 
     private CustonRatingbar cr1, cr2, cr3;

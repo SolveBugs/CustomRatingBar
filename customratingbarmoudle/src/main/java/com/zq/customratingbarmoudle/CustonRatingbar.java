@@ -1,4 +1,4 @@
-package customviews.com.customratingbar;
+package com.zq.customratingbarmoudle;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -51,7 +51,7 @@ public class CustonRatingbar extends LinearLayout {
         mRootView.removeAllViews();
         for (int i = 0; i < mLikeCount; i++) {
             ImageView iv = new ImageView(context);
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams((int) context.getResources().getDimension(mSize), (int) context.getResources().getDimension(mSize));
+            LayoutParams params = new LayoutParams((int) context.getResources().getDimension(mSize), (int) context.getResources().getDimension(mSize));
             params.setMargins(0, 5, 5, 0);
             iv.setLayoutParams(params);
             iv.setImageResource(likeResid);
@@ -60,7 +60,7 @@ public class CustonRatingbar extends LinearLayout {
 
         for (int i = 0; i < mTotalCount - mLikeCount; i++) {
             ImageView iv = new ImageView(context);
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams((int) context.getResources().getDimension(mSize), (int) context.getResources().getDimension(mSize));
+            LayoutParams params = new LayoutParams((int) context.getResources().getDimension(mSize), (int) context.getResources().getDimension(mSize));
             params.setMargins(0, 5, 5, 0);
             iv.setLayoutParams(params);
             iv.setImageResource(resId);

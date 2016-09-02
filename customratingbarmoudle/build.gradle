@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.+'
+}
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'CustomRatingBar'
+
+    publishedGroupId = 'com.zq.customratingbarmoudle'
+    libraryName = 'customratingbarmoudle'
+    artifact = 'customratingbarmoudle'
+
+    libraryDescription = ''
+
+    siteUrl = 'https://github.com/SolveBugs/CustomRatingBar'
+    gitUrl = 'https://github.com/SolveBugs/CustomRatingBar.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'zq'
+    developerName = 'qiang zhen'
+    developerEmail = '18317857586@163.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

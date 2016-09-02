@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomRatingBar.iml" filepath="$PROJECT_DIR$/CustomRatingBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customratingbarmoudle/customratingbarmoudle.iml" filepath="$PROJECT_DIR$/customratingbarmoudle/customratingbarmoudle.iml" />
     </modules>
   </component>
 </project>

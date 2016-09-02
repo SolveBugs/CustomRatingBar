@@ -11,13 +11,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="customviews.com.customratingbar.MainActivity">
 
-    <customviews.com.customratingbar.CustonRatingbar
+    <com.zq.customratingbarmoudle.CustonRatingbar
         android:id="@+id/cr1"
         android:layout_width="200dp"
         android:layout_height="30dp"
         app:cr_size="@dimen/cr_size_1" />
 
-    <customviews.com.customratingbar.CustonRatingbar
+    <com.zq.customratingbarmoudle.CustonRatingbar
         android:id="@+id/cr2"
         android:layout_width="200dp"
         android:layout_height="30dp"
@@ -26,7 +26,7 @@
         app:cr_size="@dimen/cr_size_1"
         app:cr_src="@drawable/wujiaoxing2" />
 
-    <customviews.com.customratingbar.CustonRatingbar
+    <com.zq.customratingbarmoudle.CustonRatingbar
         android:id="@+id/cr3"
         android:layout_width="200dp"
         android:layout_height="30dp"
